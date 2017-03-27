@@ -1,0 +1,113 @@
+	#map-wrapper { 
+		height: 100%;
+		width: 100%;
+		position: relative;
+	}
+
+	#mapid { 
+		height: 100%;
+		width: 100%;
+	}
+
+	#search-panel {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background-color: rgba(255,255,255,0.8);
+		padding: 0;
+		width: 300px;
+	}
+
+	#search-panel form {
+		padding: 10px;
+		margin: 0;
+		background-color: #EEEEEE;
+	}
+
+	#search-wrapper {
+		background-color: #FFFFFF;
+		height: 34px;
+	}
+
+	#search-wrapper input {
+		background-color: inherit;
+		border: none;
+		padding: 10px;
+		border-radius: 0;
+		width: 235px;
+	}
+
+	#search-wrapper button {
+		border: none;
+		padding: 10px;
+		border-radius: 0;	
+		float: right;
+		background-color: #BBBBBB;
+		color: #FFFFFF;
+	}
+
+	#search-wrapper button i {
+		outline: none;
+	}
+
+	#search-wrapper button:hover {
+		background-color: #777777;	
+	}
+
+	#search-results {
+		overflow: auto;
+		/*position: relative;*/
+	}
+
+	#search-results ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	#search-results li a {
+		display: block;
+		padding: 10px;
+		border-bottom: thin solid #CCCCCC;
+		text-decoration: none;
+		color: #666666;
+		font-size: 0.9em;
+	}
+
+	#search-results li a:hover {
+		text-decoration: none;
+		background-color: #DDDDDD;
+	}
+
+	#search-results-title {
+		padding: 5px 10px;
+		display: block;
+		overflow: auto;
+	}	
+
+	#search-results li a#hide-search-results {
+		float: right;
+		display: inline-block;
+		padding: 0;
+		line-height: inherit;
+		border: none;
+	}
+
+	#search-results li a#hide-search-results:hover {
+		background-color: transparent;
+		color: #000000;
+	}
+
+	#ajax-loader-throbber {
+		display: none;
+		margin: 50px auto 0 auto;
+	}
+
+	#ajax-loader-throbber.show-throbber {
+		display: block;
+	}
+
+	#no-search-results {
+		padding: 10px;
+		color: #666666;
+	}
